@@ -1,7 +1,7 @@
 package org.example.model;
 
 public class NumbersBasedOnDifficulty {
-    private String operator1;
+    private String operator;
     private Integer[] numbers;
 
 
@@ -10,7 +10,7 @@ public class NumbersBasedOnDifficulty {
     }
 
     public String getOperator() {
-        return operator1;
+        return operator;
     }
 
     public void setNumbers(Integer[] numbers) {
@@ -18,7 +18,7 @@ public class NumbersBasedOnDifficulty {
     }
 
     public void setOperator(String operator) {
-        this.operator1 = operator;
+        this.operator = operator;
     }
 
 }
